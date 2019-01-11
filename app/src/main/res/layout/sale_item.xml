@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        app:cardElevation="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/sale_item_status_title"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/sale_status"/>
+
+        <TextView
+                android:id="@+id/sale_item_date_title"
+                style="@android:style/TextAppearance.Small"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@id/sale_item_status_title"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="@string/date"/>
+
+        <TextView
+                android:layout_below="@+id/sale_item_status_title"
+                android:id="@+id/sale_item_status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STATUS"/>
+
+        <TextView
+                android:layout_below="@+id/sale_item_status"
+                android:id="@+id/sale_item_price_title"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$"/>
+
+        <TextView
+                android:layout_below="@+id/sale_item_status"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/sale_item_price_title"
+                android:id="@+id/sale_item_price"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.2"/>
+
+        <TextView
+                android:layout_marginLeft="16dp"
+                android:id="@+id/sale_item_date"
+                android:layout_below="@id/sale_item_date_title"
+                android:gravity="right"
+                android:layout_alignParentEnd="true"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/12"/>
+
+        <ImageView
+
+                android:id="@+id/sale_item_detail"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_more"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

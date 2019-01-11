@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BemacashReport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sale_status">Status Venda</string>
+    <string name="date">Data</string>
+    <string name="payemnt_gatway">Tipo de Pgto</string>
+    <string name="receipt">Numero Recibo</string>
+    <string name="hour">Hora</string>
+    <string name="totalPrice">Total</string>
+    <string name="grossPrice">Total Bruto</string>
+    <string name="discount">Desconto</string>
+    <string name="gratuity">Bonificação</string>
+    <string name="freight">Frete</string>
+    <string name="typeOrder">Tipo</string>
+    <string name="initialDate">Data inicial</string>
+    <string name="finalDate">Data Final</string>
+    <string name="orderby">Ordenar</string>
+    <string name="date_asc">Data ASC</string>
+    <string name="date_desc">Data DESC</string>
+    <string name="total_asc">Preço Total ASC</string>
+    <string name="total_desc">Preço Total DESC</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+</resources>
